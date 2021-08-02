@@ -1,0 +1,94 @@
+.App{
+    width: 95%;
+    height: 620px;
+    margin: auto;
+    box-shadow: 5px 10px 10px rgb(107, 104, 104);
+    background-image: url('./light-blue-background-4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+.intro-p{
+    background: rgb(9, 22, 22);
+    color: rgb(224, 223, 119);
+}
+
+.card{
+    background-image: url('./globe.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.repo-p{
+    color: cornsilk;
+    font-weight: bold;
+}
+.p-tag{
+    width: 80%;
+    margin: auto;
+}
+.p-tag li{
+    list-style-type: upper-roman;
+}
+.navs{
+    background-color: rgb(2, 1, 1);
+    padding: 5px;
+    
+}
+.edu-card{
+    margin-top: 3%;
+    margin-left: 10%;
+    width:60%;
+}
+.nav-left{
+    margin-left: 45%;
+    padding: 0 50px;
+}
+.nav-link{
+    margin-left: 20px;
+    color: rgb(248, 237, 223);
+    font-family: 'Alfa Slab One', cursive;
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+.logoimg{
+    margin-left: 150px;
+}
+footer{
+    position:fixed;
+    bottom:1%;
+    width: 95%;
+    margin-top: 1rem;
+    padding: 5px;    
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+.intro{
+    width: 50%;
+    margin: 2% 0% 0% 10%;
+    font-family: 'Ultra', serif;
+}
+.intro img{
+    border-radius: 20px;
+    border:chocolate double 10px;
+}
+.repo{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.contact{
+    width: 50%;
+    margin: 5%;
+}
+.copyright{
+    font-size: 20px;
+    color: thistle;
+}
