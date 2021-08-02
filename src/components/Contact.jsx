@@ -14,7 +14,7 @@ import below from "../img/below.gif"
             </List>
             <hr />
             <h3>You Can contact me through social medias below</h3>
-            <br />
+            
             <img src={below} alt="below gif"  width='200px'/>
         </div>
     )

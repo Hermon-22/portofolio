@@ -1,6 +1,6 @@
 .App{
     width: 95%;
-    height: 620px;
+    height: 700px;
     margin: auto;
     box-shadow: 5px 10px 10px rgb(107, 104, 104);
     background-image: url('./light-blue-background-4.jpg');
@@ -59,10 +59,8 @@
     margin-left: 150px;
 }
 footer{
-    position:fixed;
-    bottom:1%;
     width: 95%;
-    margin-top: 1rem;
+    margin-top: 90px;
     padding: 5px;    
     background-color: rgba(0, 0, 0, 0.74);
 }
@@ -91,4 +89,15 @@ footer{
 .copyright{
     font-size: 20px;
     color: thistle;
+}
+
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+    .App{
+        height: 220vh;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
